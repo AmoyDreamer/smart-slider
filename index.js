@@ -19,7 +19,6 @@
         this.rate = typeof options.rate === "number" && options.rate > 0 && options.rate < 1 ? options.rate : 0.5;
         //The scale of items not shown, default is 1, that means no scaling. The value is open interval 0 to closed interval 1.(optional)
         this.scale = typeof options.scale === "number" && options.scale > 0 && options.scale <= 1 ? options.scale : 1;
-        //可选，通知调用端当前轮播位置
         //A callback function, send current position of item display.(optional)
         this.sendIndex = typeof options.getIndexCallback === "function" ? options.getIndexCallback : null;
         //Current position in slider, default is 0, that means first one.
