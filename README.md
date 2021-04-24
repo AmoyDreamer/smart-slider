@@ -1,2 +1,2 @@
 # smart-slider
-The library of slider based on touch events
+The library of slider based on touch events.
