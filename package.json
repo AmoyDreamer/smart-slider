@@ -1,0 +1,28 @@
+{
+  "name": "smart-slider",
+  "version": "1.0.0",
+  "description": "The library of slider based on touch events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch",
+    "build": "gulp compress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmoyDreamer/smart-slider.git"
+  },
+  "keywords": [
+    "slider"
+  ],
+  "author": "Allen Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmoyDreamer/smart-slider/issues"
+  },
+  "homepage": "https://github.com/AmoyDreamer/smart-slider",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
+}
