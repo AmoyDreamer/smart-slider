@@ -19,9 +19,9 @@ The library of slider based on touch events.
     }
     .slider__item {
         display: inline-block;
-		width: 750px;
-		height: 100%;
-		vertical-align: top;
+        width: 750px;
+        height: 100%;
+        vertical-align: top;
     }
 </style>
 <div classe="ctx">
@@ -51,6 +51,7 @@ const slider = new smartSlider({
     item: 'slider__item'
 });
 ```
+
 ## Options
 - container: The container of slider, DOM element className.(required)
 - item: The item of slider, DOM element className.(required)
