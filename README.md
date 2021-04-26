@@ -52,7 +52,7 @@ const slider = new smartSlider({
 });
 ```
 ## Options
-- container: The container of slider，DOM element className.(required)
+- container: The container of slider, DOM element className.(required)
 - item: The item of slider, DOM element className.(required)
 - auto: Auto sliding, default is false.(optional)
 - autoTime: Auto sliding interval, default is 3000ms.(optional)
