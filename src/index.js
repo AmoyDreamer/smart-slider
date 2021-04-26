@@ -5,9 +5,9 @@
 (function() {
     var Slider = function(options) {
         var self = this;
-        //The container of slider，DOM element.(required)
+        //The container of slider，DOM element className.(required)
         this.container = document.getElementsByClassName(options.container)[0];
-        //The item list of slider, DOM element.(required)
+        //The item of slider, DOM element className.(required)
         this.itemDOM = document.getElementsByClassName(options.item);
         //The number of item.
         this.itemNum = this.itemDOM.length;
