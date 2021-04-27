@@ -2,7 +2,7 @@
 A library of slider based on touch events.
 
 ## Usage
-### 1.Import CDN library
+### Using unpkg CDN
 ```
 <script src="https://unpkg.com/smart-slider@1.0.0/index.js"></script>
 <style>
@@ -38,7 +38,7 @@ A library of slider based on touch events.
     })
 </script>
 ```
-### 2.Npm
+### Using npm
 #### Install
 ```bash
 npm install smart-slider --save-dev
