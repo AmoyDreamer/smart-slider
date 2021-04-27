@@ -1,7 +1,7 @@
 {
   "name": "smart-slider",
   "version": "1.0.0",
-  "description": "The library of slider based on touch events.",
+  "description": "A library of slider based on touch events.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,10 @@
     "url": "git+https://github.com/AmoyDreamer/smart-slider.git"
   },
   "keywords": [
-    "slider"
+    "slider",
+    "smart-slider",
+    "animation",
+    "transition"
   ],
   "author": "Allen Liu",
   "license": "MIT",

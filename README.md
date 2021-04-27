@@ -1,5 +1,5 @@
 # smart-slider
-The library of slider based on touch events.
+A library of slider based on touch events.
 
 ## Usage
 ### 1.Import CDN library

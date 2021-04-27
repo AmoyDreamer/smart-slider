@@ -1,6 +1,6 @@
 /**
  * @author Allen Liu
- * @desc The library of slider based on touch events
+ * @desc A library of slider based on touch events
  */
 (function() {
     var Slider = function(options) {
