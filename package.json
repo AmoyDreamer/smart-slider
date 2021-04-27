@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/AmoyDreamer/smart-slider/issues"
   },
-  "homepage": "https://github.com/AmoyDreamer/smart-slider",
+  "homepage": "https://github.com/AmoyDreamer/smart-slider#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-uglify": "^3.0.2"
