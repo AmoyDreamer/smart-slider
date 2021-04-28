@@ -1,6 +1,6 @@
 {
   "name": "smart-slider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library of slider based on touch events.",
   "main": "index.js",
   "scripts": {
