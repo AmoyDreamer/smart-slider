@@ -1,10 +1,29 @@
 # smart-slider
 A library of slider based on touch events.
 
-## Usage
+## Install
 ### Using unpkg CDN
 ```
 <script src="https://unpkg.com/smart-slider@1.0.0/index.js"></script>
+```
+### Using npm
+
+```bash
+npm install smart-slider --save-dev
+```
+### Usage
+The most common application scenario of smart-slider is banner sliding. Let's see its HTML:
+```
+<div classe="ctx">
+    <ul class="slider">
+        <li class="slider__item"><img src="/path/to/your/project/images/item1.png"/></li>
+        <li class="slider__item"><img src="/path/to/your/project/images/item2.png"/></li>
+        <li class="slider__item"><img src="/path/to/your/project/images/item3.png"/></li>
+    </ul>
+</div>
+```
+#### Example-CDN
+```
 <style>
     .ctx {
         position: relative;
@@ -38,12 +57,7 @@ A library of slider based on touch events.
     })
 </script>
 ```
-### Using npm
-#### Install
-```bash
-npm install smart-slider --save-dev
-```
-#### Code in Javascript
+#### Example-CommonJS
 ```
 const smartSlider = require('smart-slider');
 const slider = new smartSlider({
@@ -60,6 +74,13 @@ const slider = new smartSlider({
 - rate: The rate of Displacement/Time, can be understood sensitivity, the smaller value, the slider is more sensitive, the value is open interval 0 to 1, default is 0.5.(optional)
 - scale: The scale of items not shown, default is 1, that means no scaling. The value is open interval 0 to closed interval 1.(optional)
 - getIndexCallback: A callback function, send current position of item display.(optional)
+
+## Method
+### remove all event listener and timer.
+slider.removeAllListener()
+
+## Notice
+If you use smart-slider in SPA, you must remove the associated event listener before the component is uninstalled. Like this => slider.removeAllListener().
 
 ## License
 smart-slider is [MIT licensed](https://github.com/AmoyDreamer/smart-slider/blob/master/LICENSE).
