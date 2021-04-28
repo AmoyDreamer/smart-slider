@@ -4,7 +4,7 @@ A library of slider based on touch events.
 ## Install
 ### Using unpkg CDN
 ```
-<script src="https://unpkg.com/smart-slider@1.0.0/index.js"></script>
+<script src="https://unpkg.com/smart-slider@1.0.1/index.js"></script>
 ```
 ### Using npm
 
